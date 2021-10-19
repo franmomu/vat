@@ -296,6 +296,7 @@ class Countries implements \Iterator, \ArrayAccess
      * @return mixed Can return any type.
      * @since 5.0.0
      */
+    #[\ReturnTypeWillChange]
     public function current()
     {
         return current($this->data);
